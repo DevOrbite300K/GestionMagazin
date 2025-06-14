@@ -27,3 +27,7 @@ req="insert into Utilisateur(email, password) values(?, ?)"
 
 cur.execute(req, ("root@gmail.com", "root"))
 conn.commit()
+
+vous pouvez mainant utiliser ces identifiant la pour vous connecter:
+email: root@gmail.com
+password: root
